@@ -7,6 +7,7 @@
 ##Q：apply和call方法有形似之处，请说出二者的区别
 ------------------------------------------------------------------------------
 #Q：请解读一下javascript代码，并指出问题所在
+···javasc
 var Obj=function(msg){
     this.msg=msg;
     this.shout=function(){
@@ -18,6 +19,7 @@ var Obj=function(msg){
 }
 var aa=new Obj("abc");
 aa.waitAndShout();
+···
 #Q：请给Array本地对象增加一个原型方法，他的用途是删除数组中重复的条目，并将新的数组返回
 #Q：JavaScript是一门什么样的语言，它有哪些特点？
 #Q：希望获取到页面中所有的checkbox怎么做？(不使用第三方框架)
