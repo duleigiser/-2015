@@ -7,7 +7,7 @@
 ##Q：apply和call方法有形似之处，请说出二者的区别
 ------------------------------------------------------------------------------
 #Q：请解读一下javascript代码，并指出问题所在
-···javasc
+···javascript
 var Obj=function(msg){
     this.msg=msg;
     this.shout=function(){
