@@ -6,11 +6,11 @@
 ###在D：盘创建MongoDB文件夹
 下载后注意安装的时候路径的选择
 
-*解压安装包到D:\MongoDB
-*建立数据库目录 D:\MongoDB\data
-*建立日志目录 D:\MongoDB\logs
-*建立配置文件目录 D:\MongoDB\etc
-*建立配置文件 D:\MongoDB\etc\mongodb.conf
+* 解压安装包到D:\MongoDB
+* 建立数据库目录 D:\MongoDB\data
+* 建立日志目录 D:\MongoDB\logs
+* 建立配置文件目录 D:\MongoDB\etc
+* 建立配置文件 D:\MongoDB\etc\mongodb.conf
 ```code
     dbpath=D:\MongoDB\data #数据库路径
     logpath=D:\MongoDB\logs\mongodb.log #日志输出文件路径
