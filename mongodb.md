@@ -35,9 +35,9 @@ success!!!!
 * ```code
     mongod --config D:\MongoDB\etc\mongodb.conf
   ```
-*安装为Windows服务
+* 安装为Windows服务
     
- * ```code
+* ```code
    mongod --config D:\MongoDB\etc\mongodb.conf --install
   ``` 
 
