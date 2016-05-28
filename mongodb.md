@@ -26,6 +26,9 @@
 ……
 ```
 success!!!!
+这是在浏览器输入http://localhost:27017/可以看到显示信息为
+It looks like you are trying to access MongoDB over HTTP on the native driver port.
+
 ##进阶
 把它注册为window服务，这样每次不用回到命令行输入命令
 
