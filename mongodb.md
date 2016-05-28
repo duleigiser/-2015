@@ -1,6 +1,6 @@
 ##首先到[官网](http://www.mongodb.org/downloads )下载合适的安装包，目前的最新版本为2.6
 ![mahua](mahua-logo.jpg)
-##基本安装配置
+##基本安装配置和相关目录
 ###在D盘创建MongoDB文件夹
 下载后注意安装的时候路径的选择
 * 解压安装包到D:\MongoDB
@@ -16,7 +16,6 @@
     journal=true #启用日志文件，默认启用
     quiet=true #这个选项可以过滤掉一些无用的日志信息，若需要调试使用请设置为false
     port=27017 #端口号 默认为27017
-
 ```
 控制台切换D:\MongoDB\bin 执行
 ```code
@@ -29,27 +28,26 @@
 ```
 success!!!!
 ##进阶
-把它注册为window服务，这样每次
-##MaHua有哪些功能？
+把它注册为window服务，这样每次不用回到命令行输入命令
 
-* 方便的`导入导出`功能
-    *  直接把一个markdown的文本文件拖放到当前这个页面就可以了
-    *  导出为一个html格式的文件，样式一点也不会丢失
-* 编辑和预览`同步滚动`，所见即所得（右上角设置）
-* `VIM快捷键`支持，方便vim党们快速的操作 （右上角设置）
-* 强大的`自定义CSS`功能，方便定制自己的展示
-* 有数量也有质量的`主题`,编辑器和预览区域
-* 完美兼容`Github`的markdown语法
-* 预览区域`代码高亮`
-* 所有选项自动记忆
+配置文件和相关目录建好后使用如下方式启动MongoDB
+* 普通启动
+* ```code
+    mongod --config D:\MongoDB\etc\mongodb.conf
+  ```
+*安装为Windows服务
+    
+ * ```code
+   mongod --config D:\MongoDB\etc\mongodb.conf --install
+  ``` 
+
 
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
 * 邮件(duleigiser#126.com, 把#换成@)
 * QQ: 564779666
-* weibo: [@duleigiser](http://weibo.com/duleigiser)
-
+* weibo: [@duleigiser](http://weibo.com/u/2356693923)
 
 ##捐助开发者
 在兴趣的驱动下,写一个`免费`的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能支持一下。
@@ -65,7 +63,7 @@ success!!!!
 
 ```javascript
   var ihubo = {
-    nickName  : "草依山",
-    site : "http://jser.me"
+    nickName  : "杜磊",
+    site : "https://www.github.com/duleigiser"
   }
 ```
