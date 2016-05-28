@@ -44,7 +44,7 @@ It looks like you are trying to access MongoDB over HTTP on the native driver po
         * 默认C盘当中 无法切换到对应D盘目录
         * 首先切换到D盘 此时不需要cd,输入d: 
         * 切换到D盘后需要cd 来切换到对应目录
-    ![service](/img/changedir.png)    
+![service](/img/changedir.png)    
 ```code
     mongod --config D:\MongoDB\etc\mongodb.conf --install
 ``` 
