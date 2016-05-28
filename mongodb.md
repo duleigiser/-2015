@@ -44,6 +44,11 @@ success!!!!
 ```code
     mongod --config D:\MongoDB\etc\mongodb.conf --install
 ``` 
+* 此时控制台不会打印数据,如果出现问题，或者安装不成功,可以去
+```code
+   D:\MongoDB\logs\mongodb.log
+``` 
+看日志
 
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
