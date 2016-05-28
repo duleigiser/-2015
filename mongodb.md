@@ -32,16 +32,14 @@ success!!!!
 
 配置文件和相关目录建好后使用如下方式启动MongoDB
 * 普通启动
-* ```code
+```code
     mongod --config D:\MongoDB\etc\mongodb.conf
-  ```
-* 安装为Windows服务
+```
+* 安装为window服务
     
-* ```code
-   mongod --config D:\MongoDB\etc\mongodb.conf --install
-  ``` 
-
-
+```code
+    mongod --config D:\MongoDB\etc\mongodb.conf --install
+``` 
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
