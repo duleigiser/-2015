@@ -1,5 +1,5 @@
 ##首先到[官网](http://www.mongodb.org/downloads )下载合适的安装包，目前的最新版本为 v3.2.6
-![mahua](mahua-logo.jpg)
+
 ##基本安装配置和相关目录
 ###在D盘创建MongoDB文件夹
 下载后注意安装的时候路径的选择
@@ -47,6 +47,13 @@ It looks like you are trying to access MongoDB over HTTP on the native driver po
 ```code
     mongod --config D:\MongoDB\etc\mongodb.conf --install
 ``` 
+* 运行 管理员在默认目录
+```code
+    net start MongoDB    
+``` 
+
+
+![mahua](/img/service.png)
 * 此时控制台不会打印数据,如果出现问题，或者安装不成功,可以去
 ```code
    D:\MongoDB\logs\mongodb.log
