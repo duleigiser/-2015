@@ -35,7 +35,7 @@ success!!!!
     mongod --config D:\MongoDB\etc\mongodb.conf
 ```
 * 安装为window服务()
-###tips
+### tips
     以管理员身份登录 -->快捷键(win+x,a);
    * 切换目录问题
         * 默认C盘当中 无法切换到对应D盘目录
