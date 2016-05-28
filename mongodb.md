@@ -1,4 +1,4 @@
-##首先到[官网](http://www.mongodb.org/downloads )下载合适的安装包，目前的最新版本为2.6
+##首先到[官网](http://www.mongodb.org/downloads )下载合适的安装包，目前的最新版本为 v3.2.6
 ![mahua](mahua-logo.jpg)
 ##基本安装配置和相关目录
 ###在D盘创建MongoDB文件夹
@@ -8,7 +8,6 @@
 * 建立日志目录 D:\MongoDB\logs
 * 建立配置文件目录 D:\MongoDB\etc
 * 建立配置文件 D:\MongoDB\etc\mongodb.conf
-
 ```code
     dbpath=D:\MongoDB\data #数据库路径
     logpath=D:\MongoDB\logs\mongodb.log #日志输出文件路径
@@ -35,11 +34,17 @@ success!!!!
 ```code
     mongod --config D:\MongoDB\etc\mongodb.conf
 ```
-* 安装为window服务
-    
+* 安装为window服务()
+###tips
+    以管理员身份登录 -->快捷键(win+x,a);
+   * 切换目录问题
+        * 默认C盘当中 无法切换到对应D盘目录
+        * 首先切换到D盘 此时不需要cd,输入d: 
+        * 切换到D盘后需要cd 来切换到对应目录
 ```code
     mongod --config D:\MongoDB\etc\mongodb.conf --install
 ``` 
+
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
