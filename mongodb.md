@@ -1,4 +1,4 @@
-##首先到官网(http://www.mongodb.org/downloads )下载合适的安装包，目前的最新版本为2.6
+##首先到[官网](http://www.mongodb.org/downloads )下载合适的安装包，目前的最新版本为2.6
 //![mahua](mahua-logo.jpg)
 ##MaHua是什么?
 
